@@ -1,0 +1,289 @@
+CRITICAL - 2023-03-09 07:55:26 --> Invalid file: "v_wrapper.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_wrapper.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_wrapper', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('v_wrapper')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Home.php(13): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 08:03:15 --> Invalid file: "v_wrapper.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_wrapper.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_wrapper', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('v_wrapper')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Home.php(13): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 09:42:34 --> Call to undefined function form_open()
+in APPPATH\Views\v_register.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 4 APPPATH\Controllers\Auth.php(15): view('v_register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:13:16 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:13:42 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:13:45 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:14:12 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:16:26 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:16:27 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:16:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:16:49 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:18:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:18:04 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:18:05 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:25:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:26:05 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-09 10:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-09 10:29:48 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\v_register.php on line 52.
+ 1 APPPATH\Views\v_register.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\v_register.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:31:38 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 52.
+ 1 APPPATH\Views\v_register.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:31:41 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 52.
+ 1 APPPATH\Views\v_register.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:31:45 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 52.
+ 1 APPPATH\Views\v_register.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:32:25 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:32:26 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:32:27 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 10:32:57 --> Undefined variable $errors
+in APPPATH\Views\v_register.php on line 40.
+ 1 APPPATH\Views\v_register.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Views\\v_register.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_register', [], true)
+ 5 APPPATH\Controllers\Auth.php(16): view('v_register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
